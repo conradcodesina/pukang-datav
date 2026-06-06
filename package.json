@@ -1,0 +1,52 @@
+{
+  "name": "pukang-datav",
+  "author": "Pukang",
+  "version": "0.1.1",
+  "license": "MIT",
+  "description": "`pukang-datav` 是一套基于 Vue 3 的可视化大屏组件库，面向数据驾驶舱、指挥中心、运营监控、地图态势、设备看板等场景。",
+  "keywords": [
+    "pukang-datav",
+    "datav",
+    "dashboard",
+    "large-screen",
+    "visualization",
+    "vue",
+    "vue3",
+    "component-library"
+  ],
+  "type": "module",
+  "files": [
+    "dist",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/pukang-datav.umd.cjs",
+  "module": "./dist/pukang-datav.es.js",
+  "types": "./types/index.d.ts",
+  "style": "./dist/pukang-datav.css",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./dist/pukang-datav.es.js",
+      "require": "./dist/pukang-datav.umd.cjs"
+    },
+    "./style.css": "./dist/pukang-datav.css",
+    "./pukang-datav.css": "./dist/pukang-datav.css",
+    "./dist/pukang-datav.css": "./dist/pukang-datav.css"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.5",
+    "vite": "^8.0.1",
+    "vue": "^3.5.30"
+  },
+  "dependencies": {
+    "echarts": "^6.1.0"
+  }
+}

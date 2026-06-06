@@ -1,0 +1,16 @@
+:root {
+  --pk-datav-primary: #18d7ff;
+  --pk-datav-accent: #48f0b6;
+  --pk-datav-warning: #ffd166;
+  --pk-datav-danger: #ff5d73;
+  --pk-datav-text: #eaf7ff;
+  --pk-datav-muted: rgba(234, 247, 255, 0.68);
+  --pk-datav-border: rgba(70, 210, 255, 0.32);
+  --pk-datav-panel: rgba(7, 24, 45, 0.78);
+  --pk-datav-panel-strong: rgba(9, 35, 64, 0.92);
+  --pk-datav-shadow: 0 16px 42px rgba(0, 0, 0, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
